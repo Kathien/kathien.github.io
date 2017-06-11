@@ -133,17 +133,41 @@ h2 a:hover {
     background-color: rgb(95, 84, 104);
     color: rgb(255, 255, 255);
 }
-.background a:link {
+.background p a:link {
     color: rgb(104, 66, 160);
     transition: color 0.5s, background-color 0.5s;
 }
-.background a:visited {
+.background p a:visited {
     color: rgb(100, 100, 100);
 }
-.background a:hover {
+.background p a:hover {
     background-color: rgb(95, 84, 104);
     color: rgb(255, 255, 255);
 }
+.background p div {
+    text-align: center;
+}
+.background div{
+    text-align: center;
+}
+.downloadCV {
+    display: inline-block;
+    border: 1px solid rgb(202, 226, 246);
+    border-radius: 4px;
+    font-size: 1.25em;
+    padding: 1em;
+    margin: 0.5em 0.5em 0 0.5em;
+    background-color: rgb(255, 255, 255);
+    transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+    color: rgb(112, 160, 200);
+    text-decoration: none;
+}
+.downloadCV:hover {
+    box-shadow: 0 0 7px rgb(120, 112, 126);
+    background-color: rgb(112, 160, 200);
+    color: rgb(255, 255, 255);
+}
+
 .project {
     margin-bottom: 3em;
 }
