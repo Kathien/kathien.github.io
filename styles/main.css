@@ -223,7 +223,7 @@ h2 a:hover {
     padding-left: 1.5em;
 }
 
-ul li ul, ul li p {
+ul li ul {
     padding-left: 0;
 }
 
@@ -260,6 +260,9 @@ div section > h2 {
     -ms-transform: translate(-50%, -50%);
 }
 
+.languages {
+    text-align: center;
+}
 .education {
     position: relative;
     text-align: center;
